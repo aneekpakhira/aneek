@@ -41,23 +41,16 @@ portfolio/
 │   ├── youtube.png
 ```
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   ```
-
-2. Open the project folder.
-
-3. Launch `index.html` in your browser or use a local development server such as VS Code Live Server.
-
 ## 📱 Responsive Design
 
 The website is optimized for:
 - 💻 Desktop
 - 📱 Mobile
 - 📲 Tablet
+
+## 🚀 Live Demo
+
+🔗 https://aneekpakhira.github.io/aneek/
 
 ## 📬 Contact
 
