@@ -27,16 +27,18 @@ Hi, I'm **Aneek Pakhira**, a BCA student and aspiring web developer from India. 
 ## 📁 Project Structure
 
 ```
-project/
-├── index.html
-├── style.css
-├── logo.png
-├── right.png
-├── school.png
-├── collage.png
-├── html.png
-├── youtube.png
-└── README.md
+portfolio/
+│── index.html
+│── style.css
+│── README.md
+│
+├── img/
+│   ├── logo.png
+│   ├── main.png
+│   ├── school.png
+│   ├── collage.png
+│   ├── html.png
+│   ├── youtube.png
 ```
 
 ## 🚀 Getting Started
