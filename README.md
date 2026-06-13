@@ -6,6 +6,9 @@ Welcome to my personal portfolio website! This project showcases my skills, educ
 
 Hi, I'm **Aneek Pakhira**, a BCA student and aspiring web developer from India. I enjoy building clean, responsive websites and continuously learning new technologies.
 
+## 👨‍💻 Author 
+Aneek Pakhira © 2026
+
 ## ✨ Features
 
 - 🏠 Modern home page
