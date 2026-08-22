@@ -141,51 +141,6 @@ function typeEffect() {
 typeEffect();
 
 
-/* =========================================================
-   PROJECT FILTER
-========================================================= */
-
-const filterButtons =
-    document.querySelectorAll(".filter");
-
-const projects =
-    document.querySelectorAll(".project");
-
-
-filterButtons.forEach(button => {
-
-    button.addEventListener("click", () => {
-
-        filterButtons.forEach(btn => {
-            btn.classList.remove("active");
-        });
-
-        button.classList.add("active");
-
-        const filter =
-            button.dataset.filter;
-
-        projects.forEach(project => {
-
-            if (
-                filter === "all" ||
-                project.dataset.category === filter
-            ) {
-
-                project.style.display = "flex";
-
-            } else {
-
-                project.style.display = "none";
-
-            }
-
-        });
-
-    });
-
-});
-
 
 /* =========================================================
    SCROLL REVEAL - ANIMATE EVERY TIME
