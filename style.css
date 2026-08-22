@@ -342,49 +342,45 @@
       box-shadow: var(--shadow);
   }
 
-          .profile-box {
-            aspect-ratio: 1;
-            max-width: 360px;
-            margin: auto;
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background:
-                linear-gradient(
-                    135deg,
-                    rgba(124,92,255,0.25),
-                    rgba(0,212,255,0.15)
-                );
-            border: 1px solid var(--border);
-            font-size: 100px;
-            position: relative;
-            overflow: hidden;
-        }
+  .profile-box {
+      aspect-ratio: 1;
+      max-width: 360px;
+      margin: auto;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:
+          linear-gradient(135deg,
+              rgba(124, 92, 255, 0.25),
+              rgba(0, 212, 255, 0.15));
+      border: 1px solid var(--border);
+      font-size: 100px;
+      position: relative;
+      overflow: hidden;
+  }
 
-        .profile-box::before {
-            content: "";
-            position: absolute;
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            background: var(--primary);
-            filter: blur(80px);
-            opacity: 0.35;
-        }
+  .profile-box::before {
+      content: "";
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: var(--primary);
+      filter: blur(80px);
+      opacity: 0.35;
+  }
 
-        .profile-initial {
-            position: relative;
-            font-weight: 900;
-            background: linear-gradient(
-                135deg,
-                var(--primary),
-                var(--primary2)
-            );
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
+  .profile-initial {
+      position: relative;
+      font-weight: 900;
+      background: linear-gradient(135deg,
+              var(--primary),
+              var(--primary2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+  }
 
 
   .about-text h3 {
@@ -549,17 +545,17 @@
       color: var(--primary2);
   }
 
-  
-        .project-links {
-            display: flex;
-            gap: 12px;
-            margin-top: 18px;
-        }
 
-        .project-links a {
-            font-size: 13px;
-            color: var(--primary2);
-        }
+  .project-links {
+      display: flex;
+      gap: 12px;
+      margin-top: 18px;
+  }
+
+  .project-links a {
+      font-size: 13px;
+      color: var(--primary2);
+  }
 
   /* =========================================================
            EXPERIENCE / EDUCATION
@@ -738,8 +734,8 @@
 
   .reveal {
       opacity: 0;
-      transform: translateY(35px);
-      transition: 0.8s ease;
+      transform: translateY(40px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
   }
 
   .reveal.show {
