@@ -188,38 +188,38 @@ filterButtons.forEach(button => {
 
 
 /* =========================================================
-   SCROLL REVEAL
+   SCROLL REVEAL - ANIMATE EVERY TIME
 ========================================================= */
 
-const revealElements =
-    document.querySelectorAll(".reveal");
+const revealElements = document.querySelectorAll(".reveal");
 
+const observer = new IntersectionObserver(
+    (entries) => {
 
-const observer =
-    new IntersectionObserver(
-        (entries) => {
+        entries.forEach(entry => {
 
-            entries.forEach(entry => {
+            if (entry.isIntersecting) {
 
-                if (entry.isIntersecting) {
+                // Show animation
+                entry.target.classList.add("show");
 
-                    entry.target.classList.add("show");
+            } else {
 
-                }
+                // Remove animation when leaving viewport
+                entry.target.classList.remove("show");
 
-            });
+            }
 
-        },
-        {
-            threshold: 0.12
-        }
-    );
+        });
 
+    },
+    {
+        threshold: 0.12
+    }
+);
 
 revealElements.forEach(element => {
-
     observer.observe(element);
-
 });
 
 
