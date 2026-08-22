@@ -136,15 +136,10 @@
   }
 
   .nav-links {
-      position: absolute;
-      top: 72px;
-      left: 0;
-      width: 100%;
-      padding: 20px;
-      flex-direction: column;
-      background: var(--bg2);
-      border-bottom: 1px solid var(--border);
-      display: none;
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      list-style: none;
   }
 
   .nav-links a {
@@ -794,6 +789,9 @@
           box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
 
           display: none;
+
+          position: absolute;
+
       }
 
       .nav-links.active {
