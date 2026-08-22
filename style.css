@@ -460,29 +460,6 @@
            PROJECTS
         ========================================================= */
 
-  .filters {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 35px;
-  }
-
-  .filter {
-      border: 1px solid var(--border);
-      background: var(--card);
-      color: var(--muted);
-      padding: 9px 15px;
-      border-radius: 30px;
-      cursor: pointer;
-  }
-
-  .filter.active,
-  .filter:hover {
-      background: var(--primary);
-      color: white;
-  }
-
   .projects-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
