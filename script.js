@@ -75,12 +75,10 @@ const words = [
     "ideas into reality.",
     "things that actually work.",
     "with code and hardware.",
-    "digital and physical experiences.",
     "solutions from scratch.",
     "projects with purpose.",
     "ideas with code.",
     "what I imagine.",
-    "technology that solves problems.",
     "from concept to creation."
 
 ];
