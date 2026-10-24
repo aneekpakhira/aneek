@@ -1,0 +1,23 @@
+<!-- Add this inside your portfolio HTML where you want the animation -->
+<div class="lottie-animation">
+  <lottie-player
+    src="https://assets7.lottiefiles.com/packages/lf20_tno6cg2w.json"
+    background="transparent"
+    speed="1"
+    style="width: 340px; height: 340px;"
+    loop
+    autoplay>
+  </lottie-player>
+</div>
+
+<!-- Lottie Player library -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
+
+https://assets7.lottiefiles.com/packages/lf20_tno6cg2w.json
+https://lottie.host/a7544839-4d57-4bcb-9bda-96ca8a7563c6/eKLhUcp5wA.json
+https://lottie.host/23ff9afb-d28c-4734-81fd-10d1a1979b72/eCmIKL77sC.json
+https://lottie.host/fc15fb09-dd92-4135-8a20-322362800877/sboidP4soc.json
+https://lottie.host/8060f19b-4618-4b4e-ba2f-6d416654330c/BPjAAr6T5K.json
